@@ -1,0 +1,474 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: #fff;
+}
+
+.cab {
+    background-image: url('https://i.postimg.cc/T3dNt0P5/p1.jpg') ;
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+    border: 2px solid #000;
+}
+
+.logo {
+    width: 10%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0.01%;
+}
+
+nav {
+    margin-top: 0;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lista {
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li {
+    margin: 0;
+    flex: 1 1 auto;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 20px;
+}
+
+nav ul li :hover {
+    color: #00ff9d;
+}
+
+.search1 {
+    display: flex;
+    margin-top: -7px;
+    justify-content: end;
+    width: 80%;
+    
+}
+
+.search1 input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    height: 10px;
+}
+
+.bt{
+    margin: 0px;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0 5px 5px 0;
+    width: 40px;
+    height: 30px;
+}
+
+.search1 button:hover {
+    background-color: #00ff9d;
+}
+
+.search1 {
+    justify-content: center;
+}
+
+.conteudoo {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudoo div img {
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.sobre {
+    background-color: rgba(90, 90, 90, 0.6);
+    width: 50%;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+}
+
+.paragrafo {
+    margin: 20px;
+}
+
+.paragrafo h1 {
+    font-size: 60px;
+    color: #00ff9d;
+}
+
+.paragrafo p {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.link {
+    margin: 15px;
+}
+
+div button {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+div button a {
+    text-decoration: none;
+    color: black;
+}
+
+div button:hover {
+    background-color: #00ff9d;
+}
+
+.gradep {
+    background-color: #bdbdbd;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    justify-content: center;
+    top: 30px;
+    border-radius: 5px;
+}
+
+.gradec {
+    background-color: #bdbdbd;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    justify-content: center;
+    top: 50px;
+    border-radius: 5px;
+}
+
+.noticias {
+    text-align: center;
+    padding: 0.5px;
+}
+
+.g1 {
+    display: flex;
+    top: 5px;
+    justify-content: space-evenly;
+}
+
+.grade1 {
+    background-color: rgba(14, 14, 14, 0.4);
+    width: 350px;
+    height: 510px;
+    border-radius: 15px;
+}
+
+.grade1 div {
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -28px;
+}
+
+.grade1 div p {
+    width: 90%;
+    text-align: justify;
+    padding: 5%;
+    color: #fff;
+}
+
+.grade1 div img {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.rd {
+    background-color: #3d3d3d;
+    color: #ffffff;
+    top: 120px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Registre-se {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Registre-se a {
+    color: #000;
+
+}
+
+.rdd {
+    color: #ffffff;
+    position: relative;
+    top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btbaixo {
+    background-color: #14449c;
+}
+
+.btbaixo a {
+    color: #ffffff;
+}
+
+.body2 {
+    background-image: url('https://i.postimg.cc/kGmXdh1q/foto-blog-desenvolvimento-de-software.webp');
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.body2 div {
+    background-color: rgba(14, 14, 14, 0.9);
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    position: absolute;
+    margin: 10px;
+    padding: 100px;
+    left: 38%;
+    top: 15%;
+    border-radius: 5%;
+}
+
+.body2 div button {
+    position: absolute;
+    left: 39%;
+}
+
+.log1 {
+    text-align: center;
+    margin: -20px;
+}
+
+.textt{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.emaill {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.passwordd {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.loginn {
+    text-align: justify;
+    background-color: rgb(112, 112, 111);
+    width: 500px;
+    height: 500px;
+}
+
+.entrar {
+    background-color: blue;
+    width: 100px;
+    padding: 10px;
+}
+
+.entrar a {
+    color: #fff;
+}
+
+.dd button:hover {
+    background-color: #00ff9d;
+}
+
+.body2 div h3 {
+    text-align: center;
+}
+
+.cad{
+    text-align: center;
+}
+
+.cad a {
+    color: rgb(229, 255, 0);
+}
+
+
+.body3 {
+    background-image: url('https://i.postimg.cc/kGmXdh1q/foto-blog-desenvolvimento-de-software.webp');
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.body3 div {
+    background-color: rgba(14, 14, 14, 0.9);
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    position: absolute;
+    margin: 10px;
+    padding: 100px;
+    left: 38%;
+    top: 10%;
+    border-radius: 5%;
+}
+
+.body3 div h3 {
+    text-align: center;
+}
+
+.body3 div button {
+    position: absolute;
+    left: 39%;
+}
+
+.entrarr {
+    background-color: blue;
+    width: 100px;
+    padding: 10px;
+}
+
+.entrarr a {
+    color: #ffffff;
+}
+
+
+.grade001 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.grade002 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+
+}
+
+.grade003 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.grade_periodo div div {
+    width: 40%;
+    position: relative;
+    background-color: #bebebe;
+    text-align: start;
+    border-radius: 7px;
+}
+
+.grade_periodo div div h2 {
+    text-align: center;
+    color: #007a4b;
+}
+
+.titulo_grade {
+    text-align: center;
+    margin-top: 30px;
+    margin: 30px;
+    color: #00ff9d;
+}
+
+.curso {
+    text-align: center;
+    background-color: #c9c9c9;
+    width: 85.5%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.bt_grade {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.bt_grade button {
+    background-color: #0026ff;
+}
+
+.bt_grade :hover {
+    background-color: #00ff9d;
+}
+
+.bt_grade button a {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.horario {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.voltarr {
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    margin-top: 50px;
+    background-color: rgb(38, 0, 255);
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.voltarr a {
+    text-decoration: none;
+    color: #fff;
+}
